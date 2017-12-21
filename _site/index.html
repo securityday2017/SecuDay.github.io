@@ -37,10 +37,13 @@
   <ul class="sidebar-nav">
     <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
     <li class="sidebar-brand">
-      <a href="#top"  onclick = $("#menu-close").click(); >Security Day 2018</a>
+      <a href="#top" onclick = $("#menu-close").click(); >Security Day 2018</a>
     </li>
     <li>
       <a href="#top" onclick = $("#menu-close").click(); >Accueil</a>
+    </li>
+        <li>
+      <a href="#sponsors" onclick = $("#menu-close").click(); >Sponsors</a>
     </li>
     <li>
       <a href="#about" onclick = $("#menu-close").click(); >A propos</a>
@@ -58,27 +61,100 @@
 </nav>
 
   <header id="top" class="header">
-  <div class="text-vertical-center">
-    <h1>Security Day</h1>
-    <h3>Décembre 2017 - Université de Lille 1</h3>
-    <br>
+  <div class="text-vertical-bottom">
+   <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1eCYZk_td5nYQljqeD46EtDjGg5B0pPTkbjySf3X9E6s4aQ/viewform" target="_blank" class="btn btn-dark btn-lg">Je m'inscris</a>
+    <br /> -->
     <a href="#about" class="btn btn-dark btn-lg">Plus d'information</a>
   </div>
 </header>
 
-  <section id="about" class="about bg-primary">
+  <section id="sponsors" class="sponsors">
+  <div class="container">
+      <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+        <h1 class="text-center">Nos sponsors</h1>
+        <div class="col col-md-6 col-lg-6">
+          	<img src="https://media.licdn.com/media/p/1/000/1f5/22b/35e2635.png" width="90%" height="90%" style="vertical-align: middle;"/>
+        </div>
+        <div class="col col-md-6 col-lg-6">
+          	<img src="https://www.ovh.com/fr/news/logos/normal/logo-ovh-150DPI.png" width="70%" height="70%" style="vertical-align: middle;"/>
+        </div>
+    </div>
+
+  </div>
+</section>
+
+  <!--
+  <section id="challenge" class="challenge">
+  <div class="container">
+  	<div class="row">
+  		<h1 class="text-center">Challenge</h1>
+  		<div class="col-lg-12">
+			<p class="lead">
+				Les challenges sont accessibles à l'adresse suivante : <a href="http://security.fil.cool">security.fil.cool</a>
+			</p>
+			<br/>
+			<h2 class="text-center">Règlement</h2>
+			<p class="lead">
+				<ul>
+					<li>Les challenges sont à faire seul, par 2 ou 3 maximum</li>
+					<li>Il est impossible de cumuler plusieurs lots</li>
+					<li>Pour les étudiants du Master Informatique de Lille ayant suivi le cours de PAC, vous n'aurez pas de lots si vous remportez le premier ou second challenge</li>
+					<li>Il n'y a pas d'égalité possible. L'heure de réception du mail fait foi</li>
+					<li>Les challenges sont ouverts pour une durée de 28 jours</li>
+				</ul>
+			</p>
+			<br/>
+			<h2 class="text-center">Lots</h2>
+			<p class="lead">
+				<ul>
+					<li>Challenge facile :
+						<ul>
+							<li>Vainqueur : 50€ crédit OVH + t-shirt OVH Bug Bounty</li>
+						</ul>
+					</li>
+					<li>Challenge moyen :
+						<ul>
+							<li>Vainqueur : 60€ crédit OVH + t-shirt OVH Bug Bounty</li>
+						</ul>
+					</li>
+					<li>Challenge difficule
+						<ul>
+							<li>Vainqueur : 160€ crédit OVH + t-shirt OVH Bug Bounty</li>
+							<li>Second : 130€ crédit OVH + t-shirt OVH Bug Bounty</li>
+							<li>Troisième : 100€ crédit OVH + t-shirt OVH Bug Bounty</li>
+						</ul>
+					</li>
+				</ul>
+			</p>
+  		</div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+-->
+  <section id="about" class="about">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>A propos!</h2>
+        <h1>A propos!</h1>
         <p class="lead">
           Cette journée est une journée de conférences et d'échanges sur la sécurité informatique. Elle est à destination des étudiants mais également des experts du domaine.
         </p>
         <p class="lead">
-          Durant cette journée, des intervenants viendront proposer des conférences sur des sous-thèmes variés traitant de la sécurité en informatique comme la cryptographie, les exploits, la rétro-conception logicielle, le fuzzing, l'exploitation de vulnérabilités...
+          Durant cette journée, des intervenants viendront proposer des conférences sur des sous-thèmes variés traitant de la sécurité en informatique comme la cryptographie, les exploits, l'exploitation de vulnérabilités...
+        </p>
+        <!--
+        <p class="lead">
+          A la fin de la journée seront présentés les challenges que nous proposons. Les participants auront 4 semaines pour les résoudre. Les lots comprennent notamment du crédit OVH (Serveurs dédiés, CDN, Vrack, cloud privé, VPS, licence, nom de domaine .ovh et autre) et des t-shirts.
+        </p>
+      -->
+        <p class="lead">
+        Dans un soucis d'organisation, nous demandons aux participants de s'inscrire à cette journée via <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1eCYZk_td5nYQljqeD46EtDjGg5B0pPTkbjySf3X9E6s4aQ/viewform">ce lien</a>. Il sera impossible d'entrer et de sortir dans l'amphithéâtre en dehors des pauses spécifiées dans le programme
         </p>
       </div>
     </div>
+
     <!-- /.row -->
   </div>
   <!-- /.container -->
@@ -86,7 +162,7 @@
 
   <section id="map" class="map">
   <div class="container">
-    <h2 class="text-center">Lieu - Date</h2>
+    <h1 class="text-center">Lieu - Date</h1>
     <div class="row">
       <div class="col-lg-8 col-md-12">
         <br />
@@ -94,34 +170,74 @@
       </div>
       <div class="col-md-12 col-lg-4 lead">
         <br />
-        <p class="text-justify">La Security Day 2018 aura lieu au batiment M5 de l'Université de Lille 1. Situé à Villeneuve d'Ascq et proche du Stade Pierre Mauroy.
-        </p>
-        <p class="text-justify">Le campus est desservi par le métro (Arrêt Cité Scientifique et 4 Cantons) et le bus (9 lignes ont pour terminus la station 4 Cantons).</p>
+        <p class="text-justify">La journée prendra place le <b>jeudi 8 février</b> 2018, au <b>campus Universitaire de Lille 1</b>.</p>
         <br/>
-        <p class="text-justify">La journée prendra place le 8 février 2018.</p>
+        <p>Situé à Villeneuve d'Ascq et proche du Stade Pierre Mauroy, le campus est très bien desservi par les transports en commun (<i>Métro Ligne jaune : Cité Scientifique</i>) avec <b>10 minutes de trajet depuis la Gare Lille Flandres</b> ou 15 depuis la Gare Lille Europe.</p>
       </div>
     </div>
     <!-- end rowwww -->
   </div>
   <!-- end container -->
 </section>
-  <section id="programme" class="programme bg-primary">
+
+  <!--
+  <section id="programme" class="programme">
   <div class="container">
   	<div class="row">
-  		<h2 class="text-center">Programme</h2>
+  		<h1 class="text-center">Programme</h1>
   		<div class="col-lg-12">
 			<p class="lead">
-				Le programme est en cours de planification. Les conférences sont prévues toute la journée
+				Le programme est en cours de planification. Les conférences sont prévues toute la journée : 2 le matin et 3 l'après-midi.
 			</p>
 			<p class="lead">
-				Le programme des conférences sera entremêlé de pause café toutes les 2 ou 3 conférences.
+				Vous êtes les bienvenus à partir de 10h10, les conférences commenceront à 10h30. Une pause café est prévue au milieu de l'après-midi, à 15h40.
 			</p>
   		</div>
-  	</div>
+      	<div>
+        	<ul>
+        		<li>
+        			<h3>10h30 - 11h30 : Présentation du concept de SOC, architecture, conception, mise en œuvre, présentation du principe d’OIV et de l’homogation PDIS</h3>
+        			<p>
+        				<i>par Benjamin Cazier (Advens)</i>
+        			</p>
+        		</li>
+        		<li>
+		        	<h3>14h15 - 14h55 : Sécurité de Wordpress et ses plugins</h3>
+		        		<p>Fonctionnement interne du CMS, historique côté sécurité, fonctions dangereuses, exemples d'exploitation de vulnérabilités avancées
+		          		<br/>
+		          		<i>par Thomas Chauchefoin (Synacktiv)</i>
+		        		</p>
+		        	</li>
+		        <li>
+		        	<h3>15h - 15h40 : Attacking Games for Fun and Profit</h3>
+		        		<p>Rétro-ingénierie appliqué aux jeux vidéos. Développement et protection contre les logiciels de triche
+		        			<br/>
+		        			<i>par Dimitri Fourny (Quarkslab)</i>
+		        		</p>
+		        	</li>
+		        <li>
+		        	<h3>16h - 16h40 : Failles dans les scripts de démarrages : Windows et Linux même combat !</h3>
+		          	<p>
+		              	<i>par Vincent Malguy (OVH)</i>
+		          	</p>
+		        </li>
+		        <li>
+		          	<h3>16h45 - 17h : Présentation des challenges</h3>
+		          	<p>
+		              	<i>par Antonin Durey</i>
+		          	</p>
+		        </li>
+        	</ul>
+ 	 	</div>
+    <div>
+      <p class="lead">La journée sera clôturée à 17h par un pot de remerciement aux intervenants, sponsors et participants</p>
+    </div>
     <!-- /.row -->
   </div>
   <!-- /.container -->
 </section>
+
+-->
   <footer>
   <div class="container">
     <div class="row">
@@ -129,11 +245,11 @@
         <h4><strong>SecurityDay</strong>
         </h4>
         <p>
-
+          
           <br>
-
+          
           <br>
-
+          
         </p>
         <ul class="list-unstyled">
           <li><i class="fa fa-phone fa-fw"></i> </li>
@@ -143,17 +259,17 @@
         <br>
         <ul class="list-inline">
           <li>
-            <a href="https://facebook.com/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+            <a href="https://facebook.com/secuDay"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
           </li>
           <li>
             <a href="https://twitter.com/"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
           </li>
           <li>
-            <a href="https://github.com/"><i class="fa fa-github fa-fw fa-3x"></i></a>
+            <a href="https://github.com/SecuDay"><i class="fa fa-github fa-fw fa-3x"></i></a>
           </li>
         </ul>
         <hr class="small">
-        <p class="text-muted">Copyright &copy;  2016</p>
+        <p class="text-muted">Copyright &copy;  2017</p>
       </div>
     </div>
   </div>
