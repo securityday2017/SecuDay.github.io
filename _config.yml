@@ -1,20 +1,20 @@
 # Site settings
-title: Security Day 2017
-email: seucday2017@gmail.com
-description: Security Day 2017 organisée à Lille 1 - Jeudi 9 Février 2017
+title: Security Day 2018
+email: secu.day.2017.2018@gmail.com
+description: Security Day 2018 organisée à Lille 1 - Jeudi 8 Février 2017
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
 owner: SecurityDay
-email: secuday2017@gmail.com
+email: secu.day.2017.2018@gmail.com
 facebook_username: secuDay
 twitter_username:
 github_username: SecuDay
 address:
   - line:
   - line:
-  # Feel free to add more lines here 
+  # Feel free to add more lines here
 telephone:
 copyright:
 
