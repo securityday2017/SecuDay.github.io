@@ -1,4 +1,4 @@
-# Templating website for Security Day 2017
+# Templating website for Security Day 2018
 
 
 Jekyll template based on bootstrap.
@@ -6,13 +6,13 @@ Jekyll template based on bootstrap.
 
 ## Local Installation
 
-* Clone or Fork the project 
+* Clone or Fork the project
 * Install bundler (require Ruby)
 * Open the project folder
 * Run bundle install to install dependencies
 * Run bundle exec jekyll serve or jekyll serve
 
-## Need to fix 
+## Need to fix
 
 * color for title and subtitle in the first page
 
@@ -23,4 +23,4 @@ Jekyll template based on bootstrap.
 * add the pages to the navigation
 * add the pages to _layout/front.html
 * a custom css is provided at secuday.css
-* a custom js is provided at custom.js 
+* a custom js is provided at custom.js
